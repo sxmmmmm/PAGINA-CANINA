@@ -1,0 +1,162 @@
+/* contenedor general */
+div.contenedor {
+    margin: 20px auto;
+    width: 85%;
+    background: rgba(204, 204, 204, .4);
+    border-radius: 5px 5px 10px 10px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 0px 1px rgba(255,255,255,.4), 
+                0px 0px 15px rgba(204,204,204,.5);
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+
+/* encabezado */
+header.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 20px 40px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+}
+
+.huellas img {
+    width: 80px;
+    opacity: 0.9;
+}
+
+
+.titulos {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.titulos h2 {
+    font-size: 22px;
+    color: #888;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.2);
+}
+
+.titulos h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.4);
+}
+
+
+.imagen-header img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+
+nav {
+    
+    background: #a19b9b;
+    padding:15px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+nav a {
+    color: #4a0066;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    float: initial;
+}
+
+
+.articulos {
+    width: 62%;
+}
+
+.articulo {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 6px rgba(0,0,0,.1);
+}
+
+.articulo h2 {
+    margin-top: 0;
+}
+
+.articulo img {
+    width: 120px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+
+.formulario {
+    width: 30%;
+    background: #e6e2e2;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    box-shadow: 0px 2px 6px rgba(0,0,0,.2);
+}
+
+.formulario h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.formulario input {
+    width: 95%;
+    padding: 7px;
+    margin-top: 5px;
+}
+
+.formulario button {
+    padding: 10px;
+    width: 100%;
+    background: #8b7d7b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.formulario button:hover {
+    background: #6d6261;
+}
+
+/* pie de pagina */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+    font-size: 14px;
+}
